@@ -1,0 +1,129 @@
+/* h1{
+width: 500px;
+height: 500px;
+text-align: center;
+background-color: blue;
+color: rgb(134, 44, 199);
+border: 4px;
+border-radius: 10%;
+border-style:10px dashed;
+border-top: 30px dotted  rgb(98, 237, 98) ;
+border-right: 18px double #f7b0bc;
+border-bottom: 30px dotted rgb(181, 114, 243);
+border-left: 17px double rgb(177, 227, 102);
+
+} */
+
+h2{
+    color: red;
+    font-size: 55px;
+    font-family: cursive;
+    font-weight:900;
+    /* letter-spacing: 10px; */
+    /* word-spacing: 50px; */
+    text-transform: uppercase;
+    text-transform: lowercase;
+    text-transform: capitalize; /*har bir so'zni bosh harfini kotta qilib beradi */
+    /*  */
+/* width: 800px;
+height: 100px; */
+line-height: 100px; /*  qator yoki satirlar orasidagi masofa*/
+text-align: center; /* ortaga */
+text-align: start; /* boshlanishi */
+text-align: end; /* tugashi */
+background-color: aquamarine;
+text-align: left;
+border-width: 10px;
+border-style: outset;
+border-color: red;
+border: 20px double blue;
+border-top: 5px solid gold;
+border-right: 6px dashed black;
+border-bottom: 15px dotted green;
+border-left: 20px solid purple;
+}
+p{
+    border: 5px solid red;
+    width: 1000px;
+    height: 70px;
+    font-size: 24px;
+    font-family: cursive;
+    font-weight: 800;
+    text-align: center;
+    color: yellow;
+    background-color: black;
+    border-radius: 50px ;
+    transition: 1s;
+    /* malum vaqt mobaynida o'zgarish */
+    /* border-radius: 100%; */
+}
+/* pseouldu class */
+/* birinchisiga murojat */
+p:first-child{
+    background: aqua;
+    border: none;
+    color: white;
+}
+/* oxirgisiga murojat */
+p:last-child{
+    background: red;
+    border: none;
+    color: black;
+}
+/* Istaganiga murojat */
+p:nth-child(10){
+    background-color: yellow;
+    color: red;
+}
+/*toqlariga murojat */
+p:nth-child(odd){
+    background-color: yellow;
+    color: red;
+}
+/* Juftlariga murojat */
+p:nth-child(even){
+    background-color: red;
+    color: black;
+}
+/* ustiga borganda o'zgarsin */
+p:hover{
+    background-color: grey;
+    color: red;
+    width: 1200px;
+}
+/* bosganda o'zgarsin */
+p:active{
+    background-color: green;
+    color: red;
+    width: 1600px;
+}
+h1{
+border:5px solid palevioletred ;
+width: 1000px ;
+height: 100px ;
+font-size: 24px  ;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+font-weight: 700 ;
+text-align:center ;
+color: green ;
+background-color: black ;
+border-radius:100px ;
+transition: 2s ;
+}
+h1:first-child{
+background-color: green;
+border: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

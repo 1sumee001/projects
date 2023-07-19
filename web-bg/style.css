@@ -1,0 +1,35 @@
+*{
+margin: 0;    
+padding: 0;
+list-style: none;
+text-decoration: none;
+box-sizing: border-box;
+}
+.Travel_Stories{
+    width: 1500px;
+ height: 550px;
+ border: 5px solid royalblue;
+margin: auto;
+padding: 25px;
+background: url(../photos/s.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center center;
+} 
+.Travel_Stories .colaaa{
+    background: green;
+    width: 100px;
+    height: 100px;
+}
+.Travel_Stories .colaaa:first-child{
+    box-sizing: border-box;
+}
+
+
+
+
+
+
+
+
+        

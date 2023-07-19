@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+/* header start */
+header{
+    width: 100%;
+    height: 780px;
+    /* background-color: #808080; */
+}
+header .header_top{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+header .header_section{
+    width: 100%;
+    height: 100px;
+}
+header .header_section ul{
+    height: 100px;
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    /* background-color: aqua; */
+}
+header .header_section ul li a{
+     font-family:sans-serif;
+     font-weight: 400;
+     font-size: 18px;
+    color:#bab9b9;
+}
+header .header_section ul li a:hover{
+    border-bottom: 3px solid #4581b7;
+    padding-bottom: 8px;
+    color: #4581b7;
+}
+header .header_button{
+    width: 100%;
+    height: 500px;
+    background:url(./photos/picture.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+    /* background-position: center center; */
+    margin-top: 20px;
+    
+}
+/* header end */
+
+/* section start */
+section{
+     width: 100%;
+     height: 540px;
+     display: flex;
+     justify-content: space-between;
+     margin-top: 80px;
+}
+section .section_left{
+    width: 60%;
+    height: 500px;
+    background-color:#f0f0f0 ;
+    padding: 50px 100px 60px 40px;
+}
+section .section_left h2{
+     font-family:sans-serif;
+     font-weight: 700;
+     font-size: 20px;
+     color:#4581b7;
+     margin-bottom: 30px;
+}
+section .section_left p{
+    font-family:sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+}
+section .section_right{
+    width: 37%;
+    height: 500px;
+    background-color: #f0f0f0;
+    padding: 50px 100px 60px 40px;
+}
+section .section_right h2{
+    font-family:sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    color:#4581b7;
+    margin-bottom: 30px;
+}
+section .section_right p{
+   font-family:sans-serif;
+   font-weight: 400;
+   font-size: 16px;
+   color: #808080;
+   line-height: 30px;
+   margin-bottom: 40px;
+}
+/* section end */
+/* footer start */
+footer{
+    width: 100%;
+    height: 150px;
+    background-color: #f0f0f0;
+    padding: 0 40px 0 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+footer p{
+    font-family:sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #808080;
+}
+footer h4{
+    font-family:sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    color: #808080;}
+/* footer start */

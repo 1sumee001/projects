@@ -1,0 +1,107 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    box-sizing: border-box;
+    text-decoration: none   ;
+}
+.btn{
+    width: 100%;
+    height: 100px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+   
+}
+h6{ 
+    font-size: 30px;
+    font-family: 'Libre Baskerville', serif;
+    font-weight: 700;
+    color: rgb(255, 0, 119);
+  text-align: center;
+
+}
+ul,li, i{
+
+font-size: 30px;
+font-family: 'Libre Baskerville', serif;
+font-weight: 700;
+text-align: start;
+color: rgb(134, 29, 99);
+padding:5px 15px ;
+line-height: 30px;
+text-shadow: 30px 10px 10px rgb(0, 0, 0);
+margin: auto;
+
+}
+p{
+    font-size: 25px;
+    color: black;
+    text-shadow: none;
+}
+i{
+    padding:0 30px;
+}
+h1{
+    font-size: 23px;
+    color: black;
+    text-shadow: none;
+
+}
+
+.bg{
+        width: 45%;
+    height: 900px;
+    border: 2px solid black;
+    box-shadow: 20px 5px 100px rgb(75, 74, 74);
+    margin: 50px; 
+    background-color: rgba(237, 203, 238, 0.993);
+
+}
+.M{
+    width: 45%;
+    height: 100px;
+    font-size: 23px;
+    color: black;
+    text-shadow: 30px 10px 10px rgb(0, 0, 0);
+    /* background-color: blue; */
+    display: flex;
+    justify-content: center;
+}
+.M p{
+    font-size: 30px;
+font-family: 'Libre Baskerville', serif;
+font-weight: 700;
+margin: 50px;
+color: pink;
+}
+.abdu {
+    width: 50%;
+    height: 900px;
+    font-size: 23px;
+    color: black;
+    text-shadow: 30px 10px 10px rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    /* background-color: red; */
+}
+.abdu p{
+    width: 866px;
+    height: 500px;
+    font-size: 30px;
+    font-family: 'Libre Baskerville', serif;
+    font-weight: 700;
+    margin-left:90px;
+    /* background-color: red; */ 
+    color: pink;
+}
+.color{
+    width: 30%;
+    height: 300px;
+ background-color: black;
+ color: pink;
+}

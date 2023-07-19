@@ -1,0 +1,26 @@
+p{
+    width: 500px;  /*  eni */
+    height: 500px;  /*  bo'yi */
+    color: gold;   /*  so'z rangi */
+    font-family: 'Lobster', sans-serif;   /* so'zning shrifti  */
+    font-weight:400px;    /* so'zning semizligi */
+    letter-spacing: 20px;   /* harflar orasidagi masofa */
+    text-transform: uppercase;   /*  barcha harflar kattada */
+    text-transform: lowercase;   /* barcha harflar kichkinada*/
+word-spacing: 400px;     /* so'zlar orasidagi masofa */
+text-align: center ;     /* joylashuvi */
+line-height: 20px; 
+background: rgb(33, 33, 145); /* orqa fonga ishlov */
+
+
+/* border */
+
+border: 5px;
+}
+
+
+
+
+
+
+

@@ -1,0 +1,33 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body .tel{
+    width: 50%;
+    height: 600px;
+    margin: auto;
+}
+body .tel .fon{
+    width: 400px;
+    height: 600px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    background:url(../photos/emoji3.jpg);
+    transform: scale(-10px);
+    background-position: center;
+    background-size: cover; 
+       transition: .5s;
+}
+body .tel .fon:hover{
+    width: 400px;
+    height: 600px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    background:url(../photos/HD-wallpaper-emoji-wink-3d-yippiehey-art-emoji.jpg);
+    transform: scale(-10px);  
+      background-position: center;
+    background-size: cover;
+}

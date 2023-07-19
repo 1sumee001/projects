@@ -1,0 +1,31 @@
+*{
+     margin: 0;
+     padding: 0;
+     list-style:none ;
+     text-decoration:none ;
+     box-sizing:border-box ;
+}
+
+
+.sheikha{
+    width: 1500px;
+    height: 550px;
+    border: 5px solid orchid;
+    margin: auto;
+    padding: 25px;
+    background: url(../photos/i.jpg);
+    background-repeat: no-repeat ;
+    background-size: cover;
+    background-position: center center ;
+}
+.sheikha .sofiyam{
+    background: blue ;
+    width: 100px ;
+    height: 100px ;
+}
+
+.munira .yantar_gold:first-child{
+    box-sizing: border-box;
+}
+
+

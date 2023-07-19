@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+h2{
+    font-size: 50px;
+    width: 500px;
+    height: 500px;
+    background-color:pink;
+    color: black; 
+    text-shadow: 4px 10px 4px red ;
+}
+
+.wrap{
+    font-size: 50px;
+    width: 500px;
+    height: 500px;
+    background-color:pink;
+    color: black; 
+    text-shadow: 4px 10px 4px red ;
+    /* margin: auto; */
+}

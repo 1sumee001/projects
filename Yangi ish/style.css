@@ -1,0 +1,101 @@
+*{
+   margin: 0;
+   padding: 0;
+   list-style: none;
+   text-decoration: none;
+   box-sizing: border-box;   
+}
+.Ziffler{
+    width: 100%;
+    height: 800px;
+    border-top: 100px solid chocolate;
+    border-right: 200px solid chocolate;
+    border-bottom: 70px solid chocolate;
+    border-left: 130px solid chocolate;
+    display: flex;
+    justify-content: space-between;
+}
+.Ziffler .btn1{
+    width: 32%;
+    height: 680px;
+    /* border: 5px solid red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 40px;
+
+}
+.Ziffler img{
+    width: 320px;
+    height: 320px;
+    border-radius: 100%;
+   
+}
+.Ziffler .btn1 h1{
+    font-size: 40px;
+    font-family: sans-serif;
+    font-weight: 700;
+    color: rgb(101, 46, 6);
+    text-align: center;
+    margin-top: 15px;
+    text-transform: capitalize;
+}
+.Ziffler p{
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: 200;
+    color: rgb(101, 46, 6);
+    margin-top: 8px;
+    margin-bottom: 25px;
+}
+.Ziffler button:hover{
+    background: rgb(101, 46, 6);
+    color: white;
+}
+.Ziffler button{
+    transition: 0.2s;
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 700;
+    letter-spacing: 2px;
+    border-radius: 50px;
+    padding: 10px 60px;
+    color: rgb(101, 46, 6) ;
+    border-color: rgb(101, 46, 6);
+}
+.Ziffler .btn2{
+    width: 50%;
+    height: 680px;
+    /* border: 5px solid red;  */
+}
+
+.btn2 .img{
+width: 300px;
+height: 190px;
+background-color: rgba(241, 180, 120, 0.766);
+margin-top: 10px;
+position: relative;
+right: -450px;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+.Ziffler .btn2 .img h2:hover{
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 700;
+}
+.Ziffler .btn2 .img h2{
+    font-size: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 100;
+    color: rgba(0, 0, 0, 0.77); 
+    margin-bottom: -10px; 
+}
+.Ziffler .btn2 .img h6{
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 100;
+    color: rgba(0, 0, 0, 0.887); 
+}

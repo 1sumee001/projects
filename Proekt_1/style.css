@@ -1,0 +1,205 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+/* header srart */
+header{
+    width: 100%;
+    height: 672px;
+    background: url(./Photos/bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+header .header_top{
+    width: 70%;
+    height: 60px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .header_top .loogo{
+    width: 100px;
+    height: 50px;
+}
+header .header_top ul{
+    width: 75%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .header_top ul  li a{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    color: #4d4d4d;
+}
+header .header_top ul  li a:hover{
+    background: #c1bc45;
+    padding: 20px 10px;
+    margin:  -20px -10px;
+    color: white;
+}
+header .header_button{
+    width: 70%;
+    height: 500px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+header .header_button h1{
+    font-size: 73px;
+    font-style: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700px;
+    color: #c0bc45;
+}
+header .header_button p{
+    font-style: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400px;
+    color: #4d4d4d;
+}
+header .header_button p span{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900px;
+    color: black;
+}
+/* header end */
+/* section start */
+.Asosiy{
+    margin-top: 89px;
+    width: 100%;
+    height: 900px;
+    /* background-color: rgba(255, 0, 0, 0.301); */
+}
+.Asosiy .container{
+    width: 70%;
+    /* background: #8f8989; */
+    height: 780px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.Asosiy .section_top {
+    width: 49%;
+    height: 750px;
+}
+.Asosiy .section_top img{
+    width: 100%;
+    height: 420px;
+}
+.Asosiy .section_top h3{ 
+    font-size: 18px;
+   font-family: Arial, Helvetica, sans-serif;
+    line-height: 33px;
+    color: black;
+}
+.Asosiy .section_top p{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    /* color: #333333; */
+    line-height: 25px;
+}
+.Asosiy .container .section_button{
+    width: 47%;
+    height: 750px;
+}
+.Asosiy .container .section_button .ico{
+    width: 620px;
+    height: 180px;
+    border: 3.5px solid #919191;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 12px;
+}
+.Asosiy .container .section_button .ico:hover{
+    border: 4px solid #f0efb6;
+}
+.Asosiy .container .section_button .ico img{
+    margin-left: 20px;
+}
+.Asosiy .container .section_button .ico .btn{
+    width: 70%;
+    height: 160px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.Asosiy .container .section_button .ico .btn h3{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    color: black;
+    margin-top: 15px;
+    margin-bottom: 12px;
+}
+.Asosiy .container .section_button .ico .btn p{
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    color: #919191;
+}
+section{
+    width: 100%;
+    height: 250px;
+    background-color: #eee9e9;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+section .travel .davomi{
+    width: 70%;
+    height: 60px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 100px;
+}
+section .travel .davomi .loogo{
+    width: 100px;
+    height: 50px;
+}
+section .travel .davomi ul{
+    width: 75%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+section .travel .davomi ul li a{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    color: #4d4d4d;
+}
+section .travel .davomi ul li a:hover{
+    border-bottom: 3px solid red ;
+    padding: 20px 10px;
+    margin:  -20px -10px;
+    color: red;
+}
+section .travel h1{
+    width: 70%;
+    height: 130px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 85px;
+}
+section .travel h1{
+    font-size: 18px;
+    font-weight: 600;  
+    font-family: Arial, Helvetica, sans-serif;
+    color: #4d4d4d;
+}
+/* section end */
